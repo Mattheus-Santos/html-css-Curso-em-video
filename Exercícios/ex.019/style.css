@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-image:url(grid-background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+}
+.html {
+text-align: left;
+color: #000BBA;
+
+}
+h1 {
+    text-align: center;
+    color: #000BBA;
+}
+.basico {
+    color:#202247;
+}
+.intermediario {
+    color:#0869AD;
+}
+.avancado {
+    color: #E05D22;
+}
+main {
+    width: 900px;
+    background-color: cornsilk;
+    color:#003FC4;
+    padding: 10px;
+    background-attachment: fixed;
+    margin: auto;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: #00baa4e3;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.color-primary-0 { color: #85118D }	/* Main Primary color */
+.color-primary-1 { color: #744977 }
+.color-primary-2 { color: #7C3182 }
+.color-primary-3 { color: #720979 }
+.color-primary-4 { color: #66016D }
+
+.color-secondary-1-0 { color: #B21464 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #955B79 }
+.color-secondary-1-2 { color: #A33D71 }
+.color-secondary-1-3 { color: #990A52 }
+.color-secondary-1-4 { color: #8A0046 }
+
+.color-secondary-2-0 { color: #87C817 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #90A866 }
+.color-secondary-2-2 { color: #8DB845 }
+.color-secondary-2-3 { color: #71AC0B }
+.color-secondary-2-4 { color: #629B00 }
+
+.color-complement-0 { color: #B6D218 }	/* Main Complement color */
+.color-complement-1 { color: #A6B06B }
+.color-complement-2 { color: #AEC148 }
+.color-complement-3 { color: #9BB40C }
+.color-complement-4 { color: #8AA300 }
