@@ -13,16 +13,37 @@
         table {
             width: 500px;
             border-collapse: collapse;
-
+            position: relative;
         }
 
         thead, tfoot {
             background-color: rgba(137, 43, 226, 0.644);
             color: white;
         }
+
+        thead > tr > th {
+             position:sticky;
+             top: -1px;
+             background-color: rgba(137, 43, 226, 0.644);
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: darkgrey;
+        }
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {/*Cria efeito zebrado de 2 em duas linhas// coloca cor nas linhas pares.*/
+            background-color:white;
+        }
+        
+        tbody > tr:nth-child(even) {/*Cria efeito zebrado de 2 em duas linhas// colocA CORES NAS LINHAS IMPARES.*/
+            background-color: rgba(34, 139, 34, 0.342);
         }
         .numero {
             text-align: center;
@@ -44,11 +65,12 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th class="numero">% da pop. total</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+                <th class="numero" style="width: 30px;">% da pop. total</th>
             </tr>
         </thead>
         <tbody>
@@ -130,13 +152,24 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>2.567.899</strong></td>
                 <td  class="numero"><strong>74,0%</strong></td>
             </tr>
             
         </tfoot>
     </table>
-
+    <p>  ipsum dolor, sit amet consectetur adipisicing elit.            Praesentium    sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sequi, obcaecati dolore dolor maxime recusandae asperiores labore atque aperiam error, sunt eaque ab incidunt? Perspiciatis consequatur illo numquam in voluptatum.
+</p>
 </body>
 </html>
